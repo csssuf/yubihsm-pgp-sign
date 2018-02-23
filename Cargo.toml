@@ -1,0 +1,14 @@
+[package]
+name = "pretty_good_sign"
+version = "0.1.0"
+authors = ["James Forcier <james.forcier@coreos.com>"]
+
+[dependencies]
+failure= "0.1"
+clap = "2.29"
+asn1 = { git = "https://github.com/csssuf/rust-asn1", branch = "null" }
+digest = "0.7"
+sha2 = "0.7"
+yubihsm = { git = "https://github.com/coreos/yubihsm-rs" }
+gcrypt = "0.5"
+pretty-good = { git = "https://github.com/csssuf/pretty-good" }
