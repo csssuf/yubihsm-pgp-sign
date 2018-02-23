@@ -12,3 +12,6 @@ $ gpg --export-options export-reset-subkey-passwd --export-secret-keys ${YOUR_SU
 openpgp2pem ${YOUR_SUBKEY_ID} > private_key.pem
 ```
 `private_key.pem` can then be imported onto the YubiHSM2 via `yubihsm-shell`.
+
+[yubihsm-rs]: https://github.com/coreos/yubihsm-rs
+[pretty-good]: https://github.com/csssuf/pretty-good
